@@ -1,0 +1,319 @@
+/* font start */
+
+font-face{
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: 'Poppins', sans-serif;
+}
+
+font-face{
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-family: 'Poppins', sans-serif;
+}
+
+font-face{
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: 'Poppins', sans-serif;
+}
+
+font-face{
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* font end */
+
+/* common start */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+}
+
+/* common end */
+/* header start */
+
+header{
+    padding: 10px 0;
+    background-color: #F0FFF0;
+}
+
+.c-nav{}
+
+.logo{
+    width: 200px;
+}
+
+.h-nav {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 1px;
+    }
+
+.menu{}
+
+.menu ul li a{
+    padding: 0 17px !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000 !important;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+
+.nav-btn{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF !important;
+    padding: 12px 28px;
+    background: #21B573;
+    border-radius: 33px;
+}
+
+.nav-btn:hover{
+    background-color: #FD511A;
+}
+
+/* header end */
+/* banner start */
+
+.banner{
+    padding-bottom: 60px;
+    background-color: #F0FFF0;
+}
+
+
+
+.b-text h5{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FD511A;
+}
+
+.b-text h1{
+    margin-bottom: 19px;
+    padding: 0 120px 0 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.b-text h1 span{
+    color: #21B573;
+}
+
+.b-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+
+.b-text a{
+    align-items: center;
+    padding: 12px 36px;
+    width: 160px;
+    background: #21B573;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    border: none;
+    color: white;
+}
+
+.b-text a:hover{
+    border: none;
+    background-color: #FD511A;
+    color: white;
+}
+
+.b-img{}
+
+.b-img img{}
+
+
+/* banner end */
+/* feature start */
+
+.feature{
+    padding: 40px 0 100px;
+}
+
+.single{
+    padding: 55px 0;
+    background-color: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.single:hover{
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.s-img{
+    margin-bottom: 25px;
+}
+
+.single h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    margin-bottom: 0;
+}
+
+.single p{
+    color: #585859;
+}
+
+
+/* feature end */
+/* course start */
+
+.course{
+    padding-bottom: 100px;
+}
+
+.course h1{
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+
+.card{
+    padding: 23px 0 31px;
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.c-img{
+    padding: 0 20px;
+}
+
+.card-body{
+    padding-left: 23px;
+}
+
+.card-body h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+
+.card-body p{
+    color: #585859;
+}
+
+.buy{
+    margin-bottom: 31px;
+    align-items: center;
+    padding: 8px 28px;
+    background: #21B573 !important;
+    border-radius: 33px;
+    color: white;
+}
+
+.buy:hover{
+    background-color: #FD511A !important;
+    color: white;
+}
+
+.date{}
+
+.date a{
+    font-weight: 500;
+    line-height: 24px;
+    color: #585859 !important;
+}
+
+.date{}
+
+
+
+/* course end */
+/* testimonial start */
+
+.testimonial{
+    padding-bottom: 100px;
+}
+
+.testimonial h1{
+    margin-bottom: 65px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.t-img{}
+
+.t-img img{}
+
+.t-text{}
+
+.t-text p{
+    padding: 13px 0 0 35px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.round {
+    bottom: -80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #585859;
+}
+
+
+/* testimonial end */
+/* footer start */
+
+footer{
+    padding: 55px 0 75px;
+    background-color: #282531;
+}
+
+.ftr-text{
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.ftr-list{}
+
+.ftr-list h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.ftr-list ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    color: #FFFFFF !important;
+}
+
+.footer-bottom{
+    text-align: center;
+    line-height: 30px;
+    color: #CDCDCD;
+    }
+
+/* footer end */
